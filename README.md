@@ -1,7 +1,9 @@
 # Event Participation Database System
 
 <p align="center">
-  <img src="path-to-your-erd-image.png" alt="ERD Diagram" width="400px">
+  <img src="relational%20e%20logical/download.png" alt="ERD Diagram" width="600px">
+  <br>
+  <em>Entity-Relationship Diagram of the Event Participation Database</em>
 </p>
 
 ## <span style="color: #0073e6;">Project Objective</span>
