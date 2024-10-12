@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06E6DE1B-E822-82D9-5E1D-964584817CC5" name="T_CP_AUDITORIA">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:14:58 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_auditoria" id="ACDBCCA1-5723-45B7-6468-F8902DD53166">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:15:08 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tabela_auditada" id="72C1915B-28CD-FE4F-AEFC-954188E0CAE7">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:15:42 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operacao" id="02895F42-91FE-B8BA-F57C-09DFDEEEE92E">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:16:28 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="99AFEE45-87F0-694F-F55B-29C6B7122933">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:16:46 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_operacao" id="32EE3FF9-58B6-ACFC-ACC6-E215E04354BC">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:17:36 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="old_data" id="7A13735C-36A7-A85B-6212-455197202E12">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:17:55 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="new_data" id="DA12FAAF-1C62-D84D-E02A-9EB9F1E972A6">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:20 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5795F040-454E-9FFA-0525-6A5A51E579F0" name="T_CP_AUDITORIA PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:15:39 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACDBCCA1-5723-45B7-6468-F8902DD53166</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

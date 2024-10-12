@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEBD3328-3983-7858-91D9-47E93DE9C0CC" name="T_CP_LOG_ERRORS">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>38D8061F-A7FF-768D-4214-1996E319684E</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_log" id="BD843CA5-ADD3-7C09-2000-B451A7B6A55A">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>F3A24754-F7B1-5D6F-5F52-55B9B647C517</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_procedure" id="B65F777A-7DF4-B9F2-0BAF-0F3EF58FE3F2">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>E18C595A-7DB2-63BD-4402-1E1763D7554A</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="98921152-593B-C211-909C-F808951DD81D">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>E9CDE7B6-F356-382E-CA94-983E165B44AC</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_ocorrencia" id="BBABD5EE-5E4E-0E36-0D8D-6E0349106E81">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>1288B504-C784-1FB2-2488-A21E5CFBC57A</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_erro" id="84E299E8-EE19-BF8F-1ADB-A950C9F680E3">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>78B49E3B-7E90-0AE0-C3B9-F7C66E1E1209</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_erro" id="A6E8CF91-F28D-7A57-A3DC-53360EBC188C">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>A1074BE3-7D42-F5EB-D08C-4FEE31ACBC0B</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="340E8EA5-759B-B181-D010-0A914F5D244A" name="T_CP_LOG_ERRORS_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>888F7444-F17E-798B-D707-7114F1186ADD</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD843CA5-ADD3-7C09-2000-B451A7B6A55A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

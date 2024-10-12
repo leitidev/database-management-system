@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDDAD7E7-B2D7-214D-FD14-BB7E89582536" name="T_CP_EVENTO">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:50:20 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evento" id="104BC701-F758-C5EA-B92A-53AB27C6F34A">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:50:27 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_evento_inicio" id="65CB552A-4012-13F1-4049-A9B9BAD99741">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:50:36 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_evento_encerramento" id="FC9A3B9E-4094-152A-7311-771A21CFB6F1">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:50:54 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_evento" id="E56EC1C3-6812-6346-9159-17C26CF83B64">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:51:13 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_area" id="8B2ABC84-F976-2C5C-8CCA-759EC8F8D3FE">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:52:56 UTC</createdTime>
+<generatorID>F6B13CBD-ED18-CDFB-8D86-2EDC18C150AA</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<referedAttribute>DFD3832F-2537-7CFF-C8FA-C5BB397ECEE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_admin" id="E44716AE-79EF-EAF6-2D41-A26F6D18CE02">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:53:56 UTC</createdTime>
+<generatorID>B6901FEA-7B6B-C618-3E92-7138BE9BB63F</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<referedAttribute>1622A53B-DD66-196E-C0E4-93F4464CA610</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_participacao" id="3D7B82AF-F095-1CAD-F793-CED0C8446EE1">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:10:10 UTC</createdTime>
+<generatorID>C99B8D39-667F-AC15-4B21-94F043EC718F</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<referedAttribute>786A290B-E78E-F000-EFC4-7E03BDA1825B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_participante" id="346D4CE9-3D24-4E3F-FF8E-FA8DC53B56E0">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:10:10 UTC</createdTime>
+<generatorID>C99B8D39-667F-AC15-4B21-94F043EC718F</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="true"/>
+</engineerTo>
+<referedAttribute>791532BB-393C-A635-33D7-A8C856461588</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F656497-89AB-D73D-CCFB-CA9E1E1AB0E9" name="T_CP_EVENTO PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:50:34 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0A25495-D41E-B387-F8CB-E2C0DCDBC145" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>104BC701-F758-C5EA-B92A-53AB27C6F34A</attributeRef>
+<attributeRef>E44716AE-79EF-EAF6-2D41-A26F6D18CE02</attributeRef>
+<attributeRef>8B2ABC84-F976-2C5C-8CCA-759EC8F8D3FE</attributeRef>
+<attributeRef>3D7B82AF-F095-1CAD-F793-CED0C8446EE1</attributeRef>
+<attributeRef>346D4CE9-3D24-4E3F-FF8E-FA8DC53B56E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA998BD3-E916-F5CA-6F9B-6FBBE27E3E8D" name="T_CP_AREA">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>88FFED24-B46E-A026-150A-E02BCB8D6DA9</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_area" id="7529535C-2649-A9D8-EB4C-BBFB13EDA8E3">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>DFD3832F-2537-7CFF-C8FA-C5BB397ECEE7</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cep" id="BC40C996-D61D-32D0-A7B6-1EEAC44EB0FB">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>A89D1B09-490A-65F8-B849-86CE0D81EA52</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="C431D480-2484-E3C4-1874-4CBF9807C786">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>E99214CF-1838-522A-AB1C-D812C03164D9</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="A4067FDD-371F-5B7B-187A-34738C9A7F06">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>AC97DA11-3DB6-FC58-DBCF-50914EE78E6B</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_localizacao_banca" id="C01351D0-E9D5-24C2-4BA1-66FB72DE54C8">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>BA57241F-5ADB-D8EF-9061-E11BCC0F2C60</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_rua" id="058E1C15-C8E3-3E78-CF42-784294EAC399">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>01A04941-C7B2-EED5-469B-78918F8F3EB8</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_latitude_x" id="C7BA637F-CB48-28DC-F400-ED732564FBF8">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>79FAA14A-3168-07F1-3490-22458192F4DC</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_longitude_y" id="EFFCA517-DE78-45AD-9D7D-B9F0E84D9016">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>0C48ABFE-A147-7EF6-DBC9-C1BCA72D18EE</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F01FDCC4-6E29-9906-EF53-462E0B56FF18" name="T_CP_AREA_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>2D924123-297D-53EA-1F2F-BD88710A819B</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7529535C-2649-A9D8-EB4C-BBFB13EDA8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

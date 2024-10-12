@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="671EEAC6-124F-3275-D30F-6307D446F939" name="T_CP_AUDITORIA">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>06E6DE1B-E822-82D9-5E1D-964584817CC5</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_auditoria" id="016FAA59-8DF3-4FA0-6326-0B5D6876D002">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>ACDBCCA1-5723-45B7-6468-F8902DD53166</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tabela_auditada" id="2F69655B-B65B-D6CB-7F8B-2D1B67ADB9F8">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>72C1915B-28CD-FE4F-AEFC-954188E0CAE7</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operacao" id="3236CBF1-63DA-8E13-698B-4EE621B06C29">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>02895F42-91FE-B8BA-F57C-09DFDEEEE92E</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="AD4C0B41-E036-5117-0747-D4AEC65BBE0C">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>99AFEE45-87F0-694F-F55B-29C6B7122933</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_operacao" id="981FBD04-B79C-5A83-6BBF-0E7EA2357D29">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>32EE3FF9-58B6-ACFC-ACC6-E215E04354BC</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="old_data" id="E5E86507-6008-D14C-FDC2-EDF6227CB827">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>7A13735C-36A7-A85B-6212-455197202E12</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="new_data" id="8EED7688-6BBC-C629-4CFB-1E8416B6F873">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>DA12FAAF-1C62-D84D-E02A-9EB9F1E972A6</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26DF2660-7B0F-0B29-C982-FA3542140318" name="T_CP_AUDITORIA_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>5795F040-454E-9FFA-0525-6A5A51E579F0</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="016FAA59-8DF3-4FA0-6326-0B5D6876D002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

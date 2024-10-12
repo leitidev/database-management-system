@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55D88724-CC26-9588-AA16-5F44B26620FE" name="T_CP_EVENTO">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>DDDAD7E7-B2D7-214D-FD14-BB7E89582536</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evento" id="9F68670E-D8A5-B008-1452-3A684DC97833">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>104BC701-F758-C5EA-B92A-53AB27C6F34A</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_evento_inicio" id="8B7A59BB-7082-4755-E237-46B38FB50B26">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>65CB552A-4012-13F1-4049-A9B9BAD99741</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_evento_encerramento" id="6ED1E2A0-B35C-D9DE-45CD-ABA2640D076A">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>FC9A3B9E-4094-152A-7311-771A21CFB6F1</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_evento" id="056272B1-D413-F196-1F53-9B024ACA033F">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>E56EC1C3-6812-6346-9159-17C26CF83B64</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CP_AREA_id_area" id="5E1B070A-4024-2EDA-A311-57575F819ADF">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>8B2ABC84-F976-2C5C-8CCA-759EC8F8D3FE</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1DD798C-D6D0-CC58-D37E-65037E6C2A0D" referredColumn="7529535C-2649-A9D8-EB4C-BBFB13EDA8E3"/>
+</associations>
+</Column>
+<Column name="T_CP_ADMIN_id_admin" id="DC6B823F-A4B4-1F1D-C7D1-3FE10CF742CC">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>E44716AE-79EF-EAF6-2D41-A26F6D18CE02</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E02DC09F-06F2-C482-90B1-49A9AE8E34A4" referredColumn="FFD980DC-42C6-E673-DC91-9FE5D08DD8D2"/>
+</associations>
+</Column>
+<Column name="T_CP_PARTICIPACAO_id_participacao" id="992BB2CB-0BE0-6B86-CEEB-C74D97532C59">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>3D7B82AF-F095-1CAD-F793-CED0C8446EE1</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA939458-B8DA-E826-82D1-A5DB9A81C318" referredColumn="039CA4B3-D3F5-D401-AB5E-C342832F8EFA"/>
+</associations>
+</Column>
+<Column name="T_CP_PARTICIPACAO_id_participante" id="AFEB57E3-4DD5-A616-2D34-6DB8974A5A76">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>346D4CE9-3D24-4E3F-FF8E-FA8DC53B56E0</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA939458-B8DA-E826-82D1-A5DB9A81C318" referredColumn="377C6D05-EB46-F060-FB8C-D9D2D2AAFED9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DFEE04F-14FE-5670-0369-383AEF237B7A" name="T_CP_EVENTO_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>7F656497-89AB-D73D-CCFB-CA9E1E1AB0E9</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F68670E-D8A5-B008-1452-3A684DC97833"/>
+<colUsage columnID="DC6B823F-A4B4-1F1D-C7D1-3FE10CF742CC"/>
+<colUsage columnID="5E1B070A-4024-2EDA-A311-57575F819ADF"/>
+<colUsage columnID="992BB2CB-0BE0-6B86-CEEB-C74D97532C59"/>
+<colUsage columnID="AFEB57E3-4DD5-A616-2D34-6DB8974A5A76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C175566E-9203-EB35-09C2-8CA1C41C8487" name="T_CP_EVENTO__IDX">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F6B13CBD-ED18-CDFB-8D86-2EDC18C150AA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5E1B070A-4024-2EDA-A311-57575F819ADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E217AC42-7F89-4FEA-0022-70642EE0C26D" name="T_CP_EVENTO_T_CP_PARTICIPACAO_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>C99B8D39-667F-AC15-4B21-94F043EC718F</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="992BB2CB-0BE0-6B86-CEEB-C74D97532C59"/>
+<colUsage columnID="AFEB57E3-4DD5-A616-2D34-6DB8974A5A76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6C447A8-CD36-A3E3-DC9B-A047242B2818" name="T_CP_EVENTO_T_CP_AREA_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>F6B13CBD-ED18-CDFB-8D86-2EDC18C150AA</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E1B070A-4024-2EDA-A311-57575F819ADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB22DB27-2911-9D18-3D0F-12F39AF2393C" name="T_CP_EVENTO_T_CP_ADMIN_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>B6901FEA-7B6B-C618-3E92-7138BE9BB63F</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC6B823F-A4B4-1F1D-C7D1-3FE10CF742CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

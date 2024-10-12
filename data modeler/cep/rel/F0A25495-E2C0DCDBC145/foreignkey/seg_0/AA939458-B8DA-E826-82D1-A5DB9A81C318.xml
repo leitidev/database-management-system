@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA939458-B8DA-E826-82D1-A5DB9A81C318" containerWithKeyObject="55D88724-CC26-9588-AA16-5F44B26620FE" localFKIndex="E217AC42-7F89-4FEA-0022-70642EE0C26D" name="T_CP_EVENTO_T_CP_PARTICIPACAO_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>C99B8D39-667F-AC15-4B21-94F043EC718F</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<referredTableLongName>T_CP_PARTICIPACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B607018B-E8F1-5887-C738-17A6CEF24ACE</referredTableID>
+<keyObject>48FC20D9-535C-2D93-85E0-9735DF246053</keyObject>
+<referredKeyID>48FC20D9-535C-2D93-85E0-9735DF246053</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_participacao,T_CP_PARTICIPANTE_id_participante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

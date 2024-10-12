@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E02DC09F-06F2-C482-90B1-49A9AE8E34A4" containerWithKeyObject="55D88724-CC26-9588-AA16-5F44B26620FE" localFKIndex="BB22DB27-2911-9D18-3D0F-12F39AF2393C" name="T_CP_EVENTO_T_CP_ADMIN_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>B6901FEA-7B6B-C618-3E92-7138BE9BB63F</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<referredTableLongName>T_CP_ADMIN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E49B3FF9-A32F-7CA0-A0F0-264BC5DD4799</referredTableID>
+<keyObject>EC2D1231-9073-197E-CEEF-7F8297A4F1FC</keyObject>
+<referredKeyID>EC2D1231-9073-197E-CEEF-7F8297A4F1FC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_admin</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

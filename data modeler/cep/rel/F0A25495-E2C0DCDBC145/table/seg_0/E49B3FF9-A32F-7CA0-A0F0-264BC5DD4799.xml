@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E49B3FF9-A32F-7CA0-A0F0-264BC5DD4799" name="T_CP_ADMIN">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>83FD3B4E-7617-4D33-0C6B-DD1B2379CB3A</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_admin" id="FFD980DC-42C6-E673-DC91-9FE5D08DD8D2">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>1622A53B-DD66-196E-C0E4-93F4464CA610</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_admin" id="50C75BB3-02FE-CD5D-C251-93835558302A">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>5614113B-60BC-F4A9-8AD9-19D0FF50BFFE</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="0997E7A7-06CB-F8B3-936D-C9503B9E0218">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>3A57B3AF-62DE-AEC8-640C-0CB7C4C6C809</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CP_USUARIO_id_usuario" id="942B95FA-98C4-CE13-385C-28DF397DE463">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>47665350-27C5-70D3-4E15-867EF7924121</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D661BEED-29D4-0C12-0FEE-691BEDB5B7F4" referredColumn="06E4A508-C78A-12CE-9282-F1A787DC5CD9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC2D1231-9073-197E-CEEF-7F8297A4F1FC" name="T_CP_ADMIN_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>A0B9B878-08C8-BD09-02B9-ADB92B17DC5D</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD980DC-42C6-E673-DC91-9FE5D08DD8D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E087AAB-2601-A66E-55AF-3C3FF442F0D7" name="T_CP_ADMIN__IDX">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>410FBDDF-04EA-FDF1-727C-582E543A50C6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="942B95FA-98C4-CE13-385C-28DF397DE463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="181DB6F1-95A1-9E95-9857-EB470AD7296F" name="T_CP_ADMIN_T_CP_USUARIO_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>410FBDDF-04EA-FDF1-727C-582E543A50C6</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="942B95FA-98C4-CE13-385C-28DF397DE463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B607018B-E8F1-5887-C738-17A6CEF24ACE" name="T_CP_PARTICIPACAO">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>B6F92D3C-D6A6-F50B-449D-784422C64178</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_participacao" id="039CA4B3-D3F5-D401-AB5E-C342832F8EFA">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>786A290B-E78E-F000-EFC4-7E03BDA1825B</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_participacao" id="A814C000-2DDF-1AA6-F925-557B04919153">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>9846ECC9-6AB8-1577-5778-7C8515DD1258</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CP_PARTICIPANTE_id_participante" id="377C6D05-EB46-F060-FB8C-D9D2D2AAFED9">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>791532BB-393C-A635-33D7-A8C856461588</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA1B5E65-4C19-9F07-1824-4DDFAE2ED2A8" referredColumn="D9D63A51-A17E-74E4-5329-5AD0AEC37743"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48FC20D9-535C-2D93-85E0-9735DF246053" name="T_CP_PARTICIPACAO_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>83CF9722-60D8-93CE-983A-5CA8C6DF2474</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="039CA4B3-D3F5-D401-AB5E-C342832F8EFA"/>
+<colUsage columnID="377C6D05-EB46-F060-FB8C-D9D2D2AAFED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B211E40F-1D3D-499B-E3CA-FAABF0185866" name="T_CP_PARTICIPACAO_T_CP_PARTICIPANTE_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>3441C7F8-C67D-CE2D-958D-D0851968CFF9</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="377C6D05-EB46-F060-FB8C-D9D2D2AAFED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cep" id="B61DA5B8-4974-B220-1465-08FBD8696E44" version="3.5">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 19:34:02 UTC</createdTime>
+<ownerDesignName>cep</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B61DA5B8-4974-B220-1465-08FBD8696E44</designId>
+</OSDM_Design>

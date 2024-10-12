@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1DD798C-D6D0-CC58-D37E-65037E6C2A0D" containerWithKeyObject="55D88724-CC26-9588-AA16-5F44B26620FE" localFKIndex="A6C447A8-CD36-A3E3-DC9B-A047242B2818" name="T_CP_EVENTO_T_CP_AREA_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-09-30 20:18:52 UTC</createdTime>
+<generatorID>F6B13CBD-ED18-CDFB-8D86-2EDC18C150AA</generatorID>
+<ownerDesignName>cep</ownerDesignName>
+<referredTableLongName>T_CP_AREA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DA998BD3-E916-F5CA-6F9B-6FBBE27E3E8D</referredTableID>
+<keyObject>F01FDCC4-6E29-9906-EF53-462E0B56FF18</keyObject>
+<referredKeyID>F01FDCC4-6E29-9906-EF53-462E0B56FF18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_area</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
