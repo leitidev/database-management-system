@@ -29,5 +29,35 @@ This project is a relational database system developed to manage event participa
   <li><strong>Entity-Relationship Model (ERM):</strong> Used for designing the database architecture and relationships.</li>
 </ul>
 
-## <span style="color: #0073e6;">Project Structure</span>
+
+## <span style="color: #0073e6;">Challenges Faced</span>
+
+<div style="border: 1px solid #f0ad4e; padding: 10px;">
+  <ul>
+    <li><strong>Handling Complex Foreign Keys:</strong> Managing foreign key relationships between multiple tables required careful planning, especially with cascading actions.</li>
+    <li><strong>Trigger Optimization:</strong> Optimizing trigger performance was critical to ensure the system ran smoothly without lag.</li>
+    <li><strong>Ensuring Data Integrity:</strong> Data validation, especially with multiple foreign keys, was a constant focus to avoid any inconsistencies.</li>
+  </ul>
+</div>
+
+## <span style="color: #0073e6;">How to Run the Project</span>
+
+<ol>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/leitidev/database-management-system</code></pre>
+  </li>
+  <li>Open the project in Oracle SQL Developer.</li>
+  <li>Execute the provided SQL scripts to create tables, triggers, and procedures.</li>
+  <li>Test the database by inserting sample data and observing the triggers and audit logs.</li>
+</ol>
+
+## <span style="color: #0073e6;">Contributing</span>
+
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
+
+<p align="center">
+  <img src="https://img.shields.io/github/forks/leitidev/database-management-system" alt="Forks">
+  <img src="https://img.shields.io/github/stars/leitidev/database-management-system" alt="Stars">
+</p>
+
 
